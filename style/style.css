@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background: url(../img/IMAGE.png)center/cover;
+    height: 600px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_list{
+    display: flex;
+    list-style: none;
+}
+
+.header_list a{
+    color: white;
+    padding: 33px 40px;
+    text-decoration: none;
+    display: block;
+}
+
+header img{
+    margin-top: 25px;
+}
+
+.sun{
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 155px;
+    height: 45px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.intro h1{
+    font-size: 60px;
+    margin: 150px 300px 0 300px;
+    font-weight: 700;
+}
+
+.intro p{
+    font-size: 13px;
+    margin-top: 35px;
+}
+
+button{
+    font-size: 16px;
+    margin-top: 75px;
+    font-weight: 400;
+    border: 2px solid #5AB963;
+    padding: 15px 30px;
+    background: #5AB963;
+}
+
+.rain{
+    text-decoration: none;
+    color: white;
+}
+
+span{
+    color: lightgray;
+    font-family: 'Libre Franklin';
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.paper{
+    font-size: 24px;
+    font-family: 'Libre Franklin';
+    font-weight: 700,bold;
+    margin-top: 120px;
+    margin-bottom: 54px;
+    width: 510px;
+}
+
+.pen{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 19px;
+}
+
+.kofe{
+    border: 1px #F7F7F7 solid;
+    border-bottom: 120px;
+    width: 377px;
+    height: 330px;
+}
+
+.kofe img{
+    width: 100px;
+    height: 100px;
+    margin: 51px 276px 25px 41px;
+}
+
+.kofe h5{
+    font-size: 16px;
+    font-weight: 700,bold;
+    margin-bottom: 13px;
+    margin-left: 41px;
+}
+
+.kofe p{
+    color: #999999;
+    font-size: 13px;
+    margin-left: 41px;
+}
+
+.eda{
+    margin-top: 120px;
+}
+
+.food{
+    width: 1285px;
+    height: 720px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.egg{
+    color: black;
+    font-family: 'Libre Franklin';
+    font-weight: 700,bold;
+    font-size: 24px;
+}
+
+.p{
+    color: lightgrey;
+    font-size: 24px;
+    font-weight: 100,thin;
+    margin-top: 115px;
+    text-align: center;
+}
+
+.f{
+    color: #5AB963;
+    font-size: 11px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none;
+    margin: 6px 630px 0;
+    margin-bottom: 236px;
+}
+
+.book{
+    margin-top: 236px;
+    display: flex;
+}
+
+.eraser{
+    width: 470px;
+    height: 330px;
+    margin-left: 135px;
+}
+
+.ruler{
+    margin-left: 100px;
+}
+
+.ruler h3{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.ruler p{
+    font-size: 13px;
+    color: #999999;
+}
+
+.earth{
+    margin-top: 93px;
+    display: flex;
+}
+
+.sky{
+    width: 470px;
+    height: 330px;
+    margin-left: 160px;
+}
+
+.cloud{
+    margin-left: 180px;
+}
+
+.cloud h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.cloud p{
+    font-size: 14px;
+    color: #999999;
+}
+
+.grass{
+    text-align: center;
+    margin-top: 110px;
+}
+
+.grass h3{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.grass p{
+    font-size: 11px;
+    margin-top: 12px;
+    margin-bottom: 120px;
+}
+
+.b{
+    color: #5AB963;
+    text-decoration: none;
+}
+
+.star{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 270px;
+    margin-bottom: 150px;
+}
+
+.snow h5{
+    font-size: 16px;
+    margin-left: 135px;
+    margin-bottom: 26px;
+}
+
+.w{
+    color: #5AB963;
+    text-decoration: none;
+}
+
+.snow h3{
+    font-size: 24px;
+    margin-left: 135px;
+}
+
+
+.s{
+    margin-right: 135px;
+    border: 2px solid #5AB963;
+    padding: 14px 30px 16px;
+    font-size: 16px;
+    text-decoration: none;
+    background: #5AB963;
+    color: white;
+}
+
+footer{
+    background: #0A0E1A;
+}
+
+.dog{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat img{
+    margin-bottom: 15px;
+}
+
+.cat p{
+    font-size: 12px;
+    color: #666666;
+}
+
+footer{
+    height: 300px;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+}
+
+.mouse{
+    list-style: none;
+}
+
+.mouse a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+
+.bird img{
+    width: 12px;
+    height: 12px;
+    margin: 19px
+}
+
+.mouse a:hover{
+    color: #5AB963;
+}
